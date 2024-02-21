@@ -33,7 +33,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="about.html">
-                  About hidden gems
+                  About
                 </a>
               </li>
               <li className="nav-item">
@@ -60,7 +60,7 @@ export default function Navbar() {
               <a href="#cities">Cities</a>
             </li>
             <li>
-              <a href="#about">About hidden gems</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <a href="contact.html">Tips</a>
