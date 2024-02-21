@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Footer from './components/Footer.jsx'
-import Navbar from './components/Navbar.jsx'
+import Header from './components/Header.jsx'
+
 
 
 ReactDOM.createRoot(document.getElementById('footer')).render(
@@ -11,9 +12,9 @@ ReactDOM.createRoot(document.getElementById('footer')).render(
   </React.StrictMode>,
 )
 
-ReactDOM.createRoot(document.getElementById('navbar')).render(
+ReactDOM.createRoot(document.getElementById('header-section')).render(
   <React.StrictMode>
-    <Navbar/>
+    <Header/>
   </React.StrictMode>,
 )
 
