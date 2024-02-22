@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 export default function ContentSection() {
   return (
     <section className="about_section layout_padding" id="about">
@@ -17,7 +20,7 @@ export default function ContentSection() {
                 hidden in the middle of text. All{" "}
               </p>
               <div className="readmore_bt">
-                <a href="about.html">Read More</a>
+                <Link to="/AboutPage">Read More</Link>
               </div>
             </div>
           </div>
