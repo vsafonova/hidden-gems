@@ -5,8 +5,7 @@ export default function CitiesSection() {
         Cities
       </h1>
       <p className="services_text">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration
+      Our curated selection of unique and lesser-known destinations invites you to delve deeper into the heart and soul of Sweden. We believe in open exploration without gatekeeping, ensuring that everyone has the opportunity to uncover the extraordinary beauty and richness that Sweden has to offer. Join us as we unlock the hidden treasures
       </p>
       <div className="services_section_2">
         <div className="row">

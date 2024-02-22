@@ -8,12 +8,8 @@ export default function ContentSection() {
               About hidden gems
             </h1>
             <p className="about_text">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All{" "}
+            Welcome to Hidden Gems! Prepare to embark on a journey through Sweden like never before. Our mission is simple: to inspire you to explore Sweden from a fresh perspective.
+Hidden Gems uncovers the treasures often overlooked by traditional tourism. We shine a spotlight on lesser-known destinations, highlighting the charm of smaller businesses and the allure of unique experiences waiting to be discovered{" "}
             </p>
             <div className="readmore_bt">
               <a href="about.html">Read More</a>
