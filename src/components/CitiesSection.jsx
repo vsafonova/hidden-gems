@@ -1,5 +1,6 @@
 export default function CitiesSection() {
   return (
+    <section className="services_section layout_padding" id="cities">
     <div className="container">
       <h1 className="services_taital" id="cities">
         Cities
@@ -22,7 +23,7 @@ export default function CitiesSection() {
             <div>
               <img src="images/img-2.png" className="services_img" />
             </div>
-            <div className="btn_main active">
+            <div className="btn_main">
               <a href="Visby.html">Visby</a>
             </div>
           </div>
@@ -37,5 +38,6 @@ export default function CitiesSection() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

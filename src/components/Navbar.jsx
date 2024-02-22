@@ -1,4 +1,15 @@
 export default function Navbar() {
+  // const navItems = [
+  //   {
+  //     linkText: "Home",
+  //     href: "/",
+  //   },
+  //   {
+  //     linkText: "Home",
+  //     href: "Cities",
+  //   },
+  // ]
+
   return (
     <div className="header_main">
       <div className="mobile_menu">
