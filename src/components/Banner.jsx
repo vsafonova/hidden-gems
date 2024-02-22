@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Banner() {
   return (
     <div className="banner_section layout_padding">
@@ -16,7 +18,7 @@ export default function Banner() {
                 majority have suffered
               </p>
               <div className="read_bt">
-                <a href="Stockholm.html">Read more</a>
+                <Link to="/CityPage">Read more</Link>
               </div>
             </div>
           </div>
@@ -29,7 +31,7 @@ export default function Banner() {
                 majority have suffered
               </p>
               <div className="read_bt">
-                <a href="Visby.html">Read more</a>
+                <Link to="/CityPage">Read more</Link>
               </div>
             </div>
           </div>
@@ -42,7 +44,7 @@ export default function Banner() {
                 majority have suffered
               </p>
               <div className="read_bt">
-                <a href="Järvsö.html">Read more</a>
+                <Link to="/CityPage">Read more</Link>
               </div>
             </div>
           </div>
