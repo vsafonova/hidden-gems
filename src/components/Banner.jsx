@@ -9,7 +9,7 @@ export default function Banner() {
         data-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item">
+          <div className="carousel-item active">
             <div className="container">
               <h1 className="banner_taital">Stockholm</h1>
               <p className="banner_text">
