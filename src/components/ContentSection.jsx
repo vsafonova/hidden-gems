@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
+
+
 export default function ContentSection() {
   return (
+    <section className="about_section layout_padding" id="about">
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-6">
@@ -15,13 +19,13 @@ Hidden Gems uncovers the treasures often overlooked by traditional tourism. We s
               <a href="about.html">Read More</a>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 padding_right_0">
-          <div>
-            <img src="images/about-img.png" className="about_img" />
+          <div className="col-md-6 padding_right_0">
+            <div>
+              <img src="images/about-img.png" className="about_img" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

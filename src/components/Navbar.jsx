@@ -1,12 +1,25 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
+  // const navItems = [
+  //   {
+  //     linkText: "Home",
+  //     href: "/",
+  //   },
+  //   {
+  //     linkText: "Home",
+  //     href: "Cities",
+  //   },
+  // ]
+
   return (
     <div className="header_main">
       <div className="mobile_menu">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="logo_mobile">
-            <a href="index.html">
+            <Link to="/">
               <img src="images/logo.png" />
-            </a>
+            </Link>
           </div>
           <button
             className="navbar-toggler"
@@ -22,24 +35,19 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="index.html">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#cities">
-                  Cities
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="about.html">
+                <Link to="/AboutPage" className="nav-link">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="contact.html">
+                <Link to="/TipsPage" className="nav-link">
                   Tips
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -47,23 +55,20 @@ export default function Navbar() {
       </div>
       <div className="container-fluid">
         <div className="logo">
-          <a href="index.html">
+          <Link to="/">
             <img src="images/logo.png" />
-          </a>
+          </Link>
         </div>
         <div className="menu_main">
           <ul>
             <li className="active">
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#cities">Cities</a>
+              <Link to="/AboutPage">About</Link>
             </li>
             <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="contact.html">Tips</a>
+              <Link to="/TipsPage">Tips</Link>
             </li>
           </ul>
         </div>
