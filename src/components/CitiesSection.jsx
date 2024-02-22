@@ -6,19 +6,19 @@ export default function CitiesSection() {
     {
       image: "img-1.png",
       cityName: "Stockholm",
-      link: "/CityPage",
+      link: "/Stockholm",
     },
 
     {
       image: "img-2.png",
       cityName: "Visby",
-      link: "/CityPage",
+      link: "/Visby",
     },
 
     {
       image: "img-3.png",
       cityName: "Järvsö",
-      link: "/CityPage",
+      link: "/Järvsö",
     },
   ];
 

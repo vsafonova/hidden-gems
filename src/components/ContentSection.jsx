@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 export default function ContentSection() {
   return (
     <section className="about_section layout_padding" id="about">
