@@ -13,9 +13,7 @@ export default function Banner() {
             <div className="container">
               <h1 className="banner_taital">Stockholm</h1>
               <p className="banner_text">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have sufferedThere are ma available, but the
-                majority have suffered
+              Delve into lesser-known charming spots that often remain elusive to the average visitor. Here, we offer you the inside scoop on Stockholm's best-kept secrets, those charming locales usually reserved for those 'in the know'
               </p>
               <div className="read_bt">
                 <Link to="/CityPage">Read more</Link>
@@ -26,9 +24,7 @@ export default function Banner() {
             <div className="container">
               <h1 className="banner_taital">Visby</h1>
               <p className="banner_text">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have sufferedThere are ma available, but the
-                majority have suffered
+              Wander through narrow cobblestone streets lined with ancient buildings and fortified walls, where every corner tells a story of the city's storied past. Explore historic ruins, lush botanical gardens, and breathtaking viewpoints overlooking the Baltic Sea
               </p>
               <div className="read_bt">
                 <Link to="/CityPage">Read more</Link>
@@ -39,9 +35,7 @@ export default function Banner() {
             <div className="container">
               <h1 className="banner_taital">Järvsö</h1>
               <p className="banner_text">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have sufferedThere are ma available, but the
-                majority have suffered
+              Nestled in the heart of Sweden's natural beauty. Whether you're seeking adrenaline-pumping adventures or peaceful moments in nature, Järvsö has it all
               </p>
               <div className="read_bt">
                 <Link to="/CityPage">Read more</Link>
