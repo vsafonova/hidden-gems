@@ -8,7 +8,7 @@ export default function CityPage() {
       <header id="header-section" className="header_section">
         <Navbar />
       </header>
-      <CitiesSection/>
+      <CitiesSection />
       <Footer />
     </>
   );
