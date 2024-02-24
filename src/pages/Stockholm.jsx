@@ -1,14 +1,13 @@
-import Footer from "../components/Footer";
-import Form from "../components/Form";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-export default function TipsPage() {
+export default function Stockholm() {
   return (
     <>
       <header id="header-section" className="header_section">
         <Navbar />
       </header>
-      <Form />
+      <h1>Stockholm</h1>
       <Footer />
     </>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 
 export default function Form() {
   const handleSubmit = (event) => {
@@ -9,7 +8,6 @@ export default function Form() {
 
   return (
     <>
-      <Header />
       <div className="contact_section layout_padding">
         <div className="container">
           <h1 className="contact_taital">Give us your tips about Sweden</h1>
