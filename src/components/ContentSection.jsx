@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function ContentSection() {
+export default function ContentSection({ showButton }) {
   return (
     <section className="about_section layout_padding">
       <div className="container-fluid">
@@ -17,16 +17,25 @@ export default function ContentSection() {
                 of smaller businesses and the allure of unique experiences
                 waiting to be discovered.
               </p>
-              <div className="readmore_bt">
-                <Link to="/AboutPage" aria-label="Read more about Hidden Gems">
-                  Read More
-                </Link>
-              </div>
+              {showButton && (
+                <div className="readmore_bt">
+                  <Link
+                    to="/AboutPage"
+                    aria-label="Read more about Hidden Gems"
+                  >
+                    Read More
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
           <div className="col-md-6 padding_right_0">
             <div>
-              <img src="src/images/About-img.webp" className="about_img" alt="About Hidden Gems" />
+              <img
+                src="src/images/About-img.webp"
+                className="about_img"
+                alt="About Hidden Gems"
+              />
             </div>
           </div>
         </div>
