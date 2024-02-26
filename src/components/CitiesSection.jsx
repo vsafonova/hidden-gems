@@ -3,14 +3,14 @@ import Card from "./Card";
 export default function CitiesSection() {
   const cities = [
     {
-      image: "img-1.png",
+      image: "stockholm-1.webp",
       cityName: "Stockholm",
       link: "/Stockholm",
       altText: "test",
     },
 
     {
-      image: "img-2.png",
+      image: "visby-1.jpg",
       cityName: "Visby",
       link: "/Visby",
       altText: "test",
@@ -37,7 +37,7 @@ export default function CitiesSection() {
           <div className="row">
             {cities.map(({ image, cityName, link, altText }) => (
               <div className="col-md-4" key={cityName}>
-                <Card src={image} cityName={cityName} link={link} alt={altText} />
+                <Card image={image} cityName={cityName} link={link} alt={altText} />
               </div>
             ))}
           </div>
