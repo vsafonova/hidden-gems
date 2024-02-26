@@ -62,7 +62,7 @@ export default function Stockholm() {
             <div className="col-md-6 padding_right_0">
               <div>
                 <img
-                  src="src/images/Stockholm.webp"
+                  src="src/images/Stockholm-1.webp"
                   className="about_img"
                   alt="About Hidden Gems"
                 />
