@@ -39,7 +39,7 @@ export default function Järvsö() {
           <div className="col-md-6 padding_right_0">
             <div>
               <img
-                src="src/images/stockholm.webp"
+                src="src/images/Jarvso.webp"
                 className="about_img"
                 alt="About Hidden Gems"
               />
