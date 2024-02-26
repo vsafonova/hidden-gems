@@ -8,7 +8,7 @@ export default function AboutPage() {
       <header id="header-section" className="header_section">
         <Navbar />
       </header>
-      <ContentSection />
+      <ContentSection showButton={false} />
       <Footer />
     </>
   );
