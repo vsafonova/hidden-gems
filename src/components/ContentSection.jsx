@@ -32,7 +32,7 @@ export default function ContentSection({ showButton }) {
           <div className="col-md-6 padding_right_0">
             <div>
               <img
-                src="src/images/About-img.webp"
+                src="./images/About-img.webp"
                 className="about_img"
                 alt="About Hidden Gems"
               />
