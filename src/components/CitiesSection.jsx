@@ -7,6 +7,7 @@ export default function CitiesSection() {
       cityName: "Stockholm",
       link: "/Stockholm",
       altText: "People sitting in a park overlooking the Old Town",
+      label: "Explore Stockholm",
     },
 
     {
@@ -15,6 +16,7 @@ export default function CitiesSection() {
       link: "/Visby",
       altText:
         "Visby city from above. White houses with orange roofs overlooking the ocean.",
+      label: "Explore Visby",
     },
 
     {
@@ -23,6 +25,7 @@ export default function CitiesSection() {
       link: "/Järvsö",
       altText:
         "Three people biking down a hill. Scenery with a lake and forest.",
+      label: "Explore Järvsö",
     },
   ];
 
