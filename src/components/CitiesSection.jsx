@@ -29,9 +29,7 @@ export default function CitiesSection() {
       <div className="container">
         <h2 className="cities_taital">Cities</h2>
         <p className="cities_text">
-          Embark on a journey of discovery as you explore the hidden gems of
-          Sweden, where every corner reveals a new adventure waiting to be
-          uncovered
+        Embark on a journey of discovery as you explore the hidden gems of Sweden, where every corner reveals a new adventure waiting to be uncovered. Our curated selection of unique and lesser-known destinations invites you to delve deeper into the heart and soul of Sweden. We believe in open exploration without gatekeeping, ensuring that everyone has the opportunity to uncover the extraordinary beauty and richness that Sweden has to offer. So, whether you're a seasoned traveler or a curious explorer, join us as we unlock the hidden treasures of this remarkable land and create unforgettable memories along the way
         </p>
         <div className="cities_section_2">
           <div className="row">
