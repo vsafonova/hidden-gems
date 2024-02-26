@@ -227,7 +227,8 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/banner-bgSWE.png);
+  /* background-color: #242a0ea5; */
   height: auto;
   background-size: 100%;
   padding: 0px 0px 20px 0px;
@@ -292,6 +293,7 @@ button {
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  /* background-color: #242a0ea5; */
 }
 
 .menu_main ul {
@@ -317,6 +319,7 @@ button {
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
+  background-color: #00000054;
 }
 
 .menu_main li a:hover {
@@ -786,9 +789,10 @@ button {
 .footer_section {
   width: 100%;
   float: left;
-  background-image: url(../images/footer-bg.png);
+  /* background-image: url(../images/footer-bg.png); */
+  background-color: #00000054;
   height: auto;
-  padding-top: 250px;
+  padding-top: 50px;
   background-size: 100% 100%;
   padding-bottom: 30px;
   background-repeat: no-repeat;
