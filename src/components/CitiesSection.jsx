@@ -6,21 +6,21 @@ export default function CitiesSection() {
       image: "stockholm.webp",
       cityName: "Stockholm",
       link: "/Stockholm",
-      altText: "test",
+      altText: "People sitting in a park overlooking the Old Town",
     },
 
     {
       image: "visby.webp",
       cityName: "Visby",
       link: "/Visby",
-      altText: "test",
+      altText: "Visby city from above. White houses with orange roofs overlooking the ocean.",
     },
 
     {
       image: "järvsö.webp",
       cityName: "Järvsö",
       link: "/Järvsö",
-      altText: "test",
+      altText: "Three people biking down a hill. Scenery with a lake and forest.",
     },
   ];
 
