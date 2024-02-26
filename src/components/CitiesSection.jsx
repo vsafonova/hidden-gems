@@ -25,15 +25,15 @@ export default function CitiesSection() {
   ];
 
   return (
-    <section className="services_section layout_padding">
+    <section className="cities_section layout_padding">
       <div className="container">
-        <h2 className="services_taital">Cities</h2>
-        <p className="services_text">
+        <h2 className="cities_taital">Cities</h2>
+        <p className="cities_text">
           Embark on a journey of discovery as you explore the hidden gems of
           Sweden, where every corner reveals a new adventure waiting to be
           uncovered
         </p>
-        <div className="services_section_2">
+        <div className="cities_section_2">
           <div className="row">
             {cities.map(({ image, cityName, link, altText }) => (
               <div className="col-md-4" key={cityName}>
