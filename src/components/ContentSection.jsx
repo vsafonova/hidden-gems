@@ -8,14 +8,17 @@ export default function ContentSection({ showButton }) {
           <div className="col-md-6">
             <div className="about_taital_main">
               <h1 className="about_taital">About Hidden Gems</h1>
+              <p className="about_text"> Welcome to Hidden Gems! </p>
               <p className="about_text">
-                Welcome to Hidden Gems! Prepare to embark on a journey through
-                Sweden like never before. Our mission is simple: to inspire you
-                to explore Sweden from a fresh perspective. Hidden Gems uncovers
-                the treasures often overlooked by traditional tourism. We shine
-                a spotlight on lesser-known destinations, highlighting the charm
-                of smaller businesses and the allure of unique experiences
-                waiting to be discovered.
+                Prepare to embark on a journey through Sweden like never before.
+              </p>
+              <p className="about_text">
+                <b>Our mission is simple:</b> to inspire you to explore Sweden
+                from a fresh perspective. <br />
+                Hidden Gems uncovers the treasures often overlooked by
+                traditional tourism. We shine a spotlight on lesser-known
+                destinations, highlighting the charm of smaller businesses and
+                the allure of unique experiences waiting to be discovered.
               </p>
               {showButton && (
                 <div className="readmore_bt">
@@ -35,7 +38,7 @@ export default function ContentSection({ showButton }) {
           <div className="col-md-6 padding_right_0">
             <div>
               <img
-                src="src/images/About-img.webp"
+                src="./images/About-img.webp"
                 className="about_img"
                 alt="About Hidden Gems"
               />

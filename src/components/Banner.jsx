@@ -16,7 +16,7 @@ export default function Banner() {
                 Delve into lesser-known charming spots that often remain elusive
                 to the average visitor. Here, we offer you the inside scoop on
                 Stockholm's best-kept secrets, those charming locales usually
-                reserved for those 'in the know'
+                reserved for those 'in the know'.
               </p>
               <div className="read_bt">
                 <Link to="/Stockholm">Stockholm</Link>
@@ -31,7 +31,7 @@ export default function Banner() {
                 buildings and fortified walls, where every corner tells a story
                 of the city's storied past. Explore historic ruins, lush
                 botanical gardens, and breathtaking viewpoints overlooking the
-                Baltic Sea
+                Baltic Sea.
               </p>
               <div className="read_bt">
                 <Link to="/Visby">Visby</Link>
@@ -44,7 +44,7 @@ export default function Banner() {
               <p className="banner_text">
                 Nestled in the heart of Sweden's natural beauty. Whether you're
                 seeking adrenaline-pumping adventures or peaceful moments in
-                nature, Järvsö has it all
+                nature, Järvsö has it all.
               </p>
               <div className="read_bt">
                 <Link to="/Järvsö">Järvsö</Link>
