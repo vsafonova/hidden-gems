@@ -31,7 +31,7 @@ export default function Visby() {
           <div className="col-md-6 padding_right_0">
             <div>
               <img
-                src="src/images/stockholm.webp"
+                src="src/images/visby-.webp"
                 className="about_img"
                 alt="About Hidden Gems"
               />

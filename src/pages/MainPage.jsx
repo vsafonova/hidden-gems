@@ -13,7 +13,7 @@ export default function MainPage() {
         <Banner />
       </header>
       <CitiesSection />
-      <ContentSection />
+      <ContentSection showButton={true} />
       <EmailSubscriptionPopup />
       <Footer />
     </>
