@@ -241,13 +241,6 @@ button {
   background-color: #2b2278;
 }
 
-.mb-lg-0,
-.my-lg-0 {
-  margin-bottom: 0 !important;
-  width: 20%;
-  float: left;
-}
-
 .header_main {
   width: 100%;
   background-image: url(../images/header-bg.png);
