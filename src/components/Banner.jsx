@@ -19,7 +19,13 @@ export default function Banner() {
                 reserved for those 'in the know'.
               </p>
               <div className="read_bt">
-                <Link to="/Stockholm">Read more</Link>
+                <Link to="/Stockholm">
+                  {" "}
+                  <span className="visually-hidden">
+                    Read more about Stockholm
+                  </span>
+                  Read more
+                </Link>
               </div>
             </div>
           </div>
@@ -34,7 +40,10 @@ export default function Banner() {
                 Baltic Sea.
               </p>
               <div className="read_bt">
-                <Link to="/Visby">Read more</Link>
+                <Link to="/Visby">
+                  <span className="visually-hidden">Read more about Visby</span>
+                  Read more
+                </Link>
               </div>
             </div>
           </div>
@@ -47,7 +56,12 @@ export default function Banner() {
                 nature, Järvsö has it all.
               </p>
               <div className="read_bt">
-                <Link to="/Järvsö">Read more</Link>
+                <Link to="/Järvsö">
+                  <span className="visually-hidden">
+                    Read more about Järvsö
+                  </span>
+                  Read more
+                </Link>
               </div>
             </div>
           </div>
