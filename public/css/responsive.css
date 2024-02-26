@@ -107,8 +107,15 @@
   .banner_section {
     padding: 50px 0px;
   }
-  .services_section {
+  .cities_section {
     padding: 50px 0px;
+  }
+
+  .cities_section_2 {
+    margin-top: 30px;
+  }
+  .cities_img {
+    margin-top: 40px;
   }
   .about_section {
     padding: 50px 0px;
@@ -218,13 +225,13 @@
   .banner_section {
     padding: 50px 0px;
   }
-  .services_section {
+  .cities_section {
     padding: 50px 0px;
   }
-  .services_section_2 {
+  .cities_section_2 {
     margin-top: 30px;
   }
-  .services_img {
+  .cities_img {
     margin-top: 40px;
   }
   .about_section {
@@ -240,88 +247,13 @@
   .padding_right_0 {
     padding-right: 15px;
   }
-  .blog_text {
-    width: 100%;
-  }
-  .play_icon_main {
-    margin-top: 40px;
-  }
-  .play_icon {
-    width: 145px;
-  }
-  .client_section_2 {
-    padding: 30px 20px;
-    margin-top: 50px;
-  }
-  .client_main {
-    display: inherit;
-  }
-  .box_left {
-    width: 100%;
-  }
-  .lorem_text {
-    padding: 30px 10px;
-    font-size: 15px;
-  }
-  .box_right {
-    width: 100%;
-  }
-  .client_name {
-    padding-top: 25px;
-  }
-  .client_taital_right {
-    padding-left: 20px;
-  }
-  .choose_taital {
-    font-size: 30px;
-  }
-  .choose_section {
-    padding: 50px 0px;
-  }
-  .choose_text {
-    width: 100%;
-    font-size: 15px;
-  }
-  .newsletter_box {
-    display: initial;
-  }
-  .let_text {
-    font-size: 30px;
-    text-align: center;
-  }
-  .getquote_bt {
-    margin: 0 auto;
-  }
+
   .footer_section {
     background-image: url(../images/footer-mobile-bg.png);
     background-size: cover;
     padding: 50px 0px;
   }
-  .input_btn_main {
-    width: 100%;
-    display: inherit;
-    background-color: transparent !important;
-  }
-  .subscribe_bt {
-    margin: 0 auto;
-    text-align: center;
-    width: 200px;
-    float: initial;
-  }
-  .subscribe_bt a {
-    width: 100%;
-    background-color: #ffffff;
-    margin-top: 50px;
-    border-radius: 40px;
-    margin-bottom: 50px;
-  }
-  .subscribe_bt a:hover {
-    color: #000;
-    background-color: #ffffff;
-  }
-  .social_icon {
-    display: inline-block;
-  }
+
   .contact_taital {
     font-size: 28px;
   }

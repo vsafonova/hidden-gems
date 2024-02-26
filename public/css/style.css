@@ -241,13 +241,6 @@ button {
   background-color: #2b2278;
 }
 
-.mb-lg-0,
-.my-lg-0 {
-  margin-bottom: 0 !important;
-  width: 20%;
-  float: left;
-}
-
 .header_main {
   width: 100%;
   background-image: url(../images/header-bg.png);
@@ -312,13 +305,13 @@ button {
 
 /* services section start */
 
-.services_section {
+.cities_section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
 
-.services_taital {
+.cities_taital {
   width: 100%;
   float: left;
   font-size: 40px;
@@ -326,7 +319,7 @@ button {
   font-weight: bold;
 }
 
-.services_text {
+.cities_text {
   width: 100%;
   float: left;
   font-size: 16px;
@@ -334,13 +327,13 @@ button {
   margin: 0px;
 }
 
-.services_section_2 {
+.cities_section_2 {
   width: 100%;
   float: left;
   margin-top: 90px;
 }
 
-.services_img {
+.cities_img {
   width: 100%;
   float: left;
   text-align: center;
