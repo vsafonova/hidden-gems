@@ -132,7 +132,6 @@
   }
   .about_taital_main {
     padding-left: 25px;
-    padding-top: 40px;
   }
   .about_text {
     font-size: 14px;
@@ -191,7 +190,6 @@
   }
   .about_taital_main {
     padding-left: 25px;
-    padding-top: 0px;
   }
   .about_text {
     font-size: 14px;
@@ -315,9 +313,6 @@
   .banner_text {
     width: 100%;
   }
-  .banner_section {
-    padding: 50px 0px;
-  }
   .cities_section {
     padding: 50px 0px;
   }
@@ -331,7 +326,6 @@
     padding: 50px 0px;
   }
   .about_taital_main {
-    padding-top: 0px;
     padding-left: 0px;
   }
   .about_text {
@@ -500,9 +494,6 @@
   .banner_text {
     width: 100%;
   }
-  .banner_section {
-    padding: 50px 0px;
-  }
   .cities_section {
     padding: 50px 0px;
   }
@@ -516,7 +507,6 @@
     padding: 50px 0px;
   }
   .about_taital_main {
-    padding-top: 0px;
     padding-left: 0px;
   }
   .about_text {

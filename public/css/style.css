@@ -256,6 +256,7 @@ button {
   width: 100%;
   float: left;
   padding-bottom: 305px;
+  padding: 100px 0px;
 }
 
 .banner_taital {
@@ -384,6 +385,7 @@ button {
 .about_taital_main {
   width: 100%;
   padding-left: 1em;
+  padding-top:0;
 }
 
 .padding_right_0 {

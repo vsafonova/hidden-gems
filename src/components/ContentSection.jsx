@@ -5,7 +5,7 @@ export default function ContentSection({ showButton }) {
     <section className="about_section layout_padding">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 py-3">
             <div className="about_taital_main">
               <h1 className="about_taital">About Hidden Gems</h1>
               <p className="about_text"> Welcome to Hidden Gems! </p>
