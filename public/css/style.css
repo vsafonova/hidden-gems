@@ -227,7 +227,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/banner-bgSWE.png);
+  background-image: url(/src/images/banner-bg.png);
   /* background-color: #242a0ea5; */
   height: auto;
   background-size: 100%;
