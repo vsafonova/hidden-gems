@@ -37,7 +37,7 @@ export default function CitiesSection() {
           <div className="row">
             {cities.map(({ image, cityName, link, altText }) => (
               <div className="col-md-4" key={cityName}>
-                <Card image={image} cityName={cityName} link={link} alt={altText} />
+                <Card image={image} cityName={cityName} link={link} altText={altText} />
               </div>
             ))}
           </div>
