@@ -238,7 +238,7 @@ button {
 
 .menu_main li a:hover {
   color: #ffffff;
-  background-color: #2b2278;
+  background-color: #1f4021;
 }
 
 .header_main {
@@ -297,7 +297,7 @@ button {
 }
 
 .read_bt a:hover {
-  background-color: #2b2278;
+  background-color: #1f4021;
   color: #ffffff;
 }
 
@@ -350,7 +350,7 @@ button {
   float: left;
   font-size: 16px;
   color: #ffffff;
-  background-color: #2b2278;
+  background-color: #000d10;
   text-align: center;
   padding: 10px 0px;
   border-radius: 30px;
@@ -361,7 +361,7 @@ button {
 
 .btn_main a:hover {
   color: #ffffff;
-  background-color: #000d10;
+  background-color: #1f4021;
 }
 
 .btn_main.active a {
@@ -427,7 +427,7 @@ button {
 
 .readmore_bt a:hover {
   color: #ffffff;
-  background-color: #2b2278;
+  background-color: #1f4021;
 }
 
 .about_img {
@@ -495,7 +495,7 @@ button {
 }
 .send_btn a:hover {
   color: #ffffff;
-  background-color: #2b2278;
+  background-color: #1f4021;
 }
 /* contact section end */
 
@@ -504,15 +504,16 @@ button {
 .footer_section {
   width: 100%;
   float: left;
-  background-color: #1d33219e;
+  background-color: #1f4021;
   height: auto;
-  padding-top: 50px;
+  padding-top: 30px;
   background-size: 100% 100%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 /* footer section end */
@@ -574,6 +575,6 @@ button {
   margin-top: 10px;
 }
 
-.popup-button:hover{
-    background-color: #4617d1;
+.popup-button:hover {
+  background-color: #4617d1;
 }
