@@ -135,7 +135,6 @@
     padding-top: 40px;
   }
   .about_text {
-    padding-top: 0px;
     font-size: 14px;
   }
   .readmore_bt {
@@ -177,11 +176,6 @@
   .choose_text {
     width: 100%;
   }
-  .footer_section {
-    padding-top: 270px;
-    background-size: cover;
-    padding-bottom: 30px;
-  }
   .input_btn_main {
     width: 60%;
   }
@@ -200,7 +194,6 @@
     padding-top: 0px;
   }
   .about_text {
-    padding-top: 0px;
     font-size: 14px;
   }
   .readmore_bt {
@@ -242,11 +235,6 @@
   .choose_text {
     width: 100%;
   }
-  .footer_section {
-    padding-top: 230px;
-    background-size: cover;
-    padding-bottom: 30px;
-  }
   .input_btn_main {
     width: 90%;
   }
@@ -270,7 +258,7 @@
     display: none;
   }
   .header_section {
-    background-image: url(../images/mobile-bg.png);
+    background-image: url(../images/banner-bg.png);
     background-size: cover;
     padding: 0px;
   }
@@ -404,11 +392,6 @@
   .getquote_bt {
     margin: 0 auto;
   }
-  .footer_section {
-    background-image: url(../images/footer-mobile-bg.png);
-    background-size: cover;
-    padding: 50px 0px;
-  }
   .input_btn_main {
     width: 100%;
     display: inherit;
@@ -461,7 +444,7 @@
     display: none;
   }
   .header_section {
-    background-image: url(/src/images/banner-bg.png);
+    background-image: url(../images/banner-bg.png);
     background-size: cover;
     padding: 0px;
   }
@@ -541,12 +524,6 @@
   }
   .padding_right_0 {
     padding-right: 15px;
-  }
-
-  .footer_section {
-    background-image: url(../images/footer-mobile-bg.png);
-    background-size: cover;
-    padding: 50px 0px;
   }
 
   .contact_taital {

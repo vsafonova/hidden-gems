@@ -272,9 +272,10 @@ button {
 .banner_text {
   width: 63%;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #ffffff;
   text-align: center;
+  font-weight: 400;
 }
 
 .read_bt {
@@ -322,9 +323,10 @@ button {
 .cities_text {
   width: 100%;
   float: left;
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #1f1f1f;
   margin: 0px;
+  padding-bottom: 0.5rem;
 }
 
 .cities_section_2 {
@@ -381,12 +383,11 @@ button {
 
 .about_taital_main {
   width: 100%;
-  padding-left: 100px;
-  padding-top: 70px;
+  padding-left: 1em;
 }
 
 .padding_right_0 {
-  padding-right: 0px;
+  padding-right: 1em;
 }
 
 .about_taital {
@@ -400,10 +401,10 @@ button {
 .about_text {
   width: 100%;
   float: left;
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #1f1f1f;
   margin: 0px;
-  padding-top: 40px;
+  padding-bottom: 0.5em;
 }
 
 .readmore_bt {
@@ -506,9 +507,9 @@ button {
   float: left;
   background-color: #1f4021;
   height: auto;
-  padding-top: 30px;
+  padding-top: 20px;
   background-size: 100% 100%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
