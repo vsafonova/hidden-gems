@@ -3,6 +3,7 @@ import ContentSection from "../components/ContentSection";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
+import EmailSubscriptionPopup from "../components/Popup";
 
 export default function MainPage() {
   return (
@@ -13,6 +14,7 @@ export default function MainPage() {
       </header>
       <CitiesSection />
       <ContentSection />
+      <EmailSubscriptionPopup />
       <Footer />
     </>
   );
