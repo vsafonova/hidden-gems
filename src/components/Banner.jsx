@@ -24,7 +24,7 @@ export default function Banner() {
                   <span className="visually-hidden">
                     Read more about Stockholm
                   </span>
-                  Read more
+                  Stockholm
                 </Link>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function Banner() {
               <div className="read_bt">
                 <Link to="/Visby">
                   <span className="visually-hidden">Read more about Visby</span>
-                  Read more
+                  Visby
                 </Link>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Banner() {
                   <span className="visually-hidden">
                     Read more about Järvsö
                   </span>
-                  Read more
+                  Järvsö
                 </Link>
               </div>
             </div>
