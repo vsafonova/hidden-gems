@@ -39,22 +39,22 @@ export default function Navbar() {
               <NavLink
                 to="/"
                 label="Home"
-                ariaLabel="Navigate to the Home Page"
+                aria-label="Navigate to the Home Page"
               />
               <NavLink
                 to="/CityPage"
                 label="Cities"
-                ariaLabel="Navigate to the Cities Page"
+                aria-label="Navigate to the Cities Page"
               />
               <NavLink
                 to="/AboutPage"
                 label="About"
-                ariaLabel="Navigate to the About Page"
+                aria-label="Navigate to the About Page"
               />
               <NavLink
                 to="/TipsPage"
                 label="Tips"
-                ariaLabel="Navigate to the Tips Page"
+                aria-label="Navigate to the Tips Page"
               />
             </ul>
           </div>
@@ -78,22 +78,22 @@ export default function Navbar() {
             <NavLink
               to="/"
               label="Home"
-              ariaLabel="Navigate to the Home Page"
+              aria-label="Navigate to the Home Page"
             />
             <NavLink
               to="/CityPage"
               label="Cities"
-              ariaLabel="Navigate to the Cities Page"
+              aria-label="Navigate to the Cities Page"
             />
             <NavLink
               to="/AboutPage"
               label="About"
-              ariaLabel="Navigate to the About Page"
+              aria-label="Navigate to the About Page"
             />
             <NavLink
               to="/TipsPage"
               label="Tips"
-              ariaLabel="Navigate to the Tips Page"
+              aria-label="Navigate to the Tips Page"
             />
           </ul>
         </nav>

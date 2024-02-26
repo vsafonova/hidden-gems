@@ -6,7 +6,8 @@ export default function CitiesSection() {
       image: "stockholm.webp",
       cityName: "Stockholm",
       link: "/Stockholm",
-      altText: "People sitting in a park overlooking the Old Town",
+      altText: "People sitting in a park overlooking the Old Town in Stockholm",
+      label: "Explore Stockholm",
     },
 
     {
@@ -14,13 +15,15 @@ export default function CitiesSection() {
       cityName: "Visby",
       link: "/Visby",
       altText: "Visby city from above. White houses with orange roofs overlooking the ocean.",
+      label: "Explore Visby",
     },
 
     {
       image: "järvsö.webp",
       cityName: "Järvsö",
       link: "/Järvsö",
-      altText: "Three people biking down a hill. Scenery with a lake and forest.",
+      altText: "Three people biking down a hill overlooking lake and forest.",
+      label: "Explore Järvsö",
     },
   ];
 
