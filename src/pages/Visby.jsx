@@ -59,7 +59,7 @@ export default function Visby() {
                 <img
                   src="./images/visby-city.webp"
                   className="about_img"
-                  alt="About Hidden Gems"
+                  alt="Visby city from above. Houses with orange roofs overlooking the ocean."
                 />
               </div>
             </div>

@@ -26,6 +26,9 @@ export default function ContentSection({ showButton }) {
                     to="/AboutPage"
                     aria-label="Read more about Hidden Gems"
                   >
+                    <span className="visually-hidden">
+                      Read more about hidden gems
+                    </span>
                     Read More
                   </Link>
                 </div>

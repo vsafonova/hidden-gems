@@ -71,7 +71,7 @@ export default function Stockholm() {
                 <img
                   src="./images/stockholm-city.webp"
                   className="about_img"
-                  alt="About Hidden Gems"
+                  alt="Mariaberget in södermalm. Buildings overlooking the bay and ocean."
                 />
               </div>
             </div>

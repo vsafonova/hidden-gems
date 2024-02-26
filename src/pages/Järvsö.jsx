@@ -70,7 +70,7 @@ export default function Järvsö() {
                 <img
                   src=".\images\järvsö-сity.webp"
                   className="about_img"
-                  alt="About Hidden Gems"
+                  alt="One person skiing down a sunny slope overlooking a forest and lake."
                 />
               </div>
             </div>
