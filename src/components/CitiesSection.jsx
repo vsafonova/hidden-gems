@@ -3,21 +3,21 @@ import Card from "./Card";
 export default function CitiesSection() {
   const cities = [
     {
-      image: "stockholm-1.webp",
+      image: "stockholm.webp",
       cityName: "Stockholm",
       link: "/Stockholm",
       altText: "test",
     },
 
     {
-      image: "visby-1.jpg",
+      image: "visby.webp",
       cityName: "Visby",
       link: "/Visby",
       altText: "test",
     },
 
     {
-      image: "img-3.png",
+      image: "järvsö.webp",
       cityName: "Järvsö",
       link: "/Järvsö",
       altText: "test",
