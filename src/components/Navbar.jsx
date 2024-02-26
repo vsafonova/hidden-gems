@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="logo_mobile">
             <Link to="/">
               <img
-                src="src/images/LogoText.png"
+                src="../src/images/LogoText.png"
                 width={50}
                 height={50}
                 alt="Hidden Gems Logo. Diamond with Horns."
