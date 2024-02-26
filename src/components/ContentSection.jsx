@@ -40,7 +40,7 @@ export default function ContentSection({ showButton }) {
               <img
                 src="./images/About-img.webp"
                 className="about_img"
-                alt="About Hidden Gems"
+                alt="Bridge over a small river leading to three small red houses in a forest."
               />
             </div>
           </div>
