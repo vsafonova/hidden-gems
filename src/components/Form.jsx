@@ -116,10 +116,10 @@ export default function Form() {
 
   return (
     <>
-      <div className="contact_section layout_padding">
+      <section className="tips--section">
         <div className="container">
-          <h1 className="contact_taital">Submit your own Hidden Gem</h1>
-          <div className="email_text">
+          <h1 className="contact--title">Submit your own Hidden Gem</h1>
+          <div className="email--text">
             {showMessage && (
               <div className={`message ${messageClass}`}>{message}</div>
             )}
@@ -174,7 +174,7 @@ export default function Form() {
                   <div className="field-error">{descriptionError}</div>
                 )}
               </div>
-              <div className="send_btn">
+              <div className="send--button">
                 <a href="#" onClick={handleSubmit} style={{marginTop: '20px'}}>
                   {buttonText}
                 </a>
@@ -182,7 +182,7 @@ export default function Form() {
             </form>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -7,13 +7,13 @@ export default function Visby() {
       <header className="header">
         <Navbar />
       </header>
-      <section className="about_section layout_padding">
+      <section className="about--section">
         <div className="container-fluid">
           <div className="row align-items-center ">
             <div className="col-md-6">
-              <div className="about_taital_main">
-                <h1 className="about_taital">Visby</h1>
-                <p className="about_text">
+              <div className="about--title-main">
+                <h1 className="about--title">Visby</h1>
+                <p className="about--text">
                   Welcome to Visby,
                   <b>
                     one of the most unique cities in Sweden, where every corner
@@ -24,14 +24,14 @@ export default function Visby() {
                   a fairy tale come to life, with climbing roses adorning the
                   facades, beckoning you to explore its enchanting alleys.
                 </p> 
-                <p className="about_text">
+                <p className="about--text">
                   If you have a <b>penchant for nature and flowers, </b>
                   <a href="https://maps.app.goo.gl/VYKdZV9MharKU1Jt6" target="_blank"> Botaniska trädgården </a>
                   awaits. Lose yourself in the meticulously kept gardens, where
                   each step rejuvenates your soul and fills your heart with
                   tranquillity.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   <b>For history buffs</b>, <a href="https://maps.app.goo.gl/5oxFVNcrJcMy4SW39" target="_blank"> Visby Ringmur </a> 
                   and the 
                   <a href="https://maps.app.goo.gl/6ZhUFsxNSQhUF8BQ9" target="_blank"> St. Nicolai </a> 
@@ -43,7 +43,7 @@ export default function Visby() {
                   breathtaking lookout spots offering panoramic views of the
                   cityscape.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   In summary, Visby is a haven for those enamoured with rich
                   history, offering a portal to bygone times for travellers
                   seeking to traverse centuries past or simply revel in the
@@ -57,7 +57,7 @@ export default function Visby() {
               <div>
                 <img
                   src="./images/visby-city.webp"
-                  className="about_img"
+                  className="about--img"
                   alt="Visby city from above. Houses with orange roofs overlooking the ocean."
                 />
               </div>

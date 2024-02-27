@@ -45,15 +45,13 @@ function Menu({ className }) {
 
 export default function Navbar() {
   return (
-    <header className="header_main">
-      <div className="mobile_menu">
+    <>
+      <div className="mobile--menu">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="logo_mobile">
+          <div className="logo--mobile">
             <Link to="/">
               <img
-                src="../images/MobileLogo.png"
-                width={50}
-                height={50}
+                src="../images/LogoText.png"
                 alt="Hidden Gems Logo. Diamond with Horns."
               />
             </Link>
@@ -87,10 +85,10 @@ export default function Navbar() {
             </Link>
           </div>
         </header>
-        <nav className="menu_main">
+        <nav className="menu">
           <Menu />
         </nav>
       </div>
-    </header>
+    </>
   );
 }

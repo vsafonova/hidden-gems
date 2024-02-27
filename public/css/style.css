@@ -129,7 +129,7 @@ button {
   width: 100%;
 }
 
-.layout_padding {
+section {
   padding-top: 90px;
   padding-bottom: 0px;
 }
@@ -156,13 +156,7 @@ button {
   padding: 3px;
 }
 
-.logo_mobile {
-  width: 100%;
-  float: left;
-  padding-bottom: 20px;
-}
-
-.mobile_menu {
+.mobile--menu {
   width: 100%;
   float: left;
   display: none;
@@ -194,7 +188,7 @@ button {
   position: relative;
 }
 
-.menu_main {
+.menu {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
@@ -205,14 +199,14 @@ button {
   margin: 0 auto;
 }
 
-.menu_main ul {
+.menu ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
   display: inline-flex;
 }
 
-.menu_main li {
+.menu li {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
@@ -224,14 +218,14 @@ button {
   border-radius: 40px;
 }
 
-.menu_main li a {
+.menu li a {
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
   background-color: #00000054;
 }
 
-.menu_main li a:hover {
+.menu li a:hover {
   color: #ffffff;
   background-color: #1f4021;
 }
@@ -240,14 +234,14 @@ button {
 
 /* banner section start */
 
-.banner_section {
+.banner--section{
   width: 100%;
   float: left;
   padding-bottom: 305px;
   padding: 100px 0px;
 }
 
-.banner_taital {
+.banner--title {
   width: 100%;
   float: left;
   font-size: 80px;
@@ -258,7 +252,7 @@ button {
   font-family: "Righteous", Regular;
 }
 
-.banner_text {
+.banner--text {
   width: 63%;
   margin: 0 auto;
   font-size: 1.5rem;
@@ -267,13 +261,13 @@ button {
   font-weight: 400;
 }
 
-.read_bt {
+.read--button {
   width: 200px;
   margin: 0 auto;
   text-align: center;
 }
 
-.read_bt a {
+.read--button a {
   width: 100%;
   float: left;
   font-size: 16px;
@@ -286,7 +280,7 @@ button {
   font-weight: 400;
 }
 
-.read_bt a:hover {
+.read--button a:hover {
   background-color: #1f4021;
   color: #ffffff;
 }
@@ -295,13 +289,13 @@ button {
 
 /* services section start */
 
-.cities_section {
+.cities--section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
 
-.cities_taital {
+.cities--title {
   width: 100%;
   float: left;
   font-size: 40px;
@@ -309,7 +303,7 @@ button {
   font-weight: bold;
 }
 
-.cities_text {
+.cities--text {
   width: 100%;
   float: left;
   font-size: 1.2rem;
@@ -318,7 +312,7 @@ button {
   padding-bottom: 0.5rem;
 }
 
-.cities_section_2 {
+.cities--section-2 {
   width: 100%;
   float: left;
   margin-top: 90px;
@@ -330,13 +324,13 @@ button {
   text-align: center;
 }
 
-.btn_main {
+.city--button {
   width: 170px;
   margin: 0 auto;
   text-align: center;
 }
 
-.btn_main a {
+.city--button a {
   width: 100%;
   float: left;
   font-size: 16px;
@@ -350,12 +344,12 @@ button {
   text-transform: uppercase;
 }
 
-.btn_main a:hover {
+.city--button a:hover {
   color: #ffffff;
   background-color: #1f4021;
 }
 
-.btn_main.active a {
+.city--button.active a {
   color: #ffffff;
   background-color: #000d10;
 }
@@ -364,23 +358,19 @@ button {
 
 /* about section start */
 
-.about_section {
+.about--section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
 
-.about_taital_main {
+.about--title-main {
   width: 100%;
   padding-left: 1em;
   padding-top: 0;
 }
 
-.padding_right_0 {
-  padding-right: 1em;
-}
-
-.about_taital {
+.about--title{
   width: 100%;
   float: left;
   font-size: 40px;
@@ -388,7 +378,7 @@ button {
   font-weight: bold;
 }
 
-.about_text {
+.about--text {
   width: 100%;
   float: left;
   font-size: 1.2rem;
@@ -421,19 +411,19 @@ button {
   background-color: #1f4021;
 }
 
-.about_img {
+.about--img {
   width: 100%;
   float: left;
 }
 
 /* contact section start */
 
-.contact_section {
+.tips--section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
-.contact_taital {
+.contact--title {
   width: 100%;
   float: left;
   font-size: 40px;
@@ -441,7 +431,7 @@ button {
   text-align: center;
   font-weight: bold;
 }
-.email_text {
+.email--text{
   width: 70%;
   margin: 0 auto;
   text-align: center;
@@ -467,12 +457,12 @@ button {
   border: 0px;
   border: 1px solid #2b2278 !important;
 }
-.send_btn {
+.send--button {
   width: 170px;
   margin: 0 auto;
   text-align: center;
 }
-.send_btn a {
+.send--button a {
   width: 100%;
   float: right;
   text-align: center;
@@ -482,7 +472,7 @@ button {
   background-color: #000d10;
   padding: 7px;
 }
-.send_btn a:hover {
+.send--button a:hover {
   color: #ffffff;
   background-color: #1f4021;
 }
@@ -490,7 +480,7 @@ button {
 
 /* footer section start */
 
-.footer_section {
+.footer {
   width: 100%;
   float: left;
   background-color: #1f4021;

@@ -37,9 +37,7 @@ const EmailSubscriptionPopup = () => {
           className="popup-close"
           onClick={handleClose}
           aria-label="Close popup"
-        >
-          ×
-        </button>
+        ></button>
         <div className="popup-content" aria-labelledby="popup-heading">
           <h2 className="popup-heading">
             Become a member of our Hidden Gems Insider Circle

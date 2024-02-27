@@ -2,17 +2,17 @@ import { Link } from "react-router-dom";
 
 export default function ContentSection({ showButton }) {
   return (
-    <section className="about_section layout_padding">
+    <section className="about--section">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 py-3">
-            <div className="about_taital_main">
-              <h1 className="about_taital">About Hidden Gems</h1>
-              <p className="about_text"> Welcome to Hidden Gems! </p>
-              <p className="about_text">
+            <div className="about--title-main">
+              <h1 className="about--title">About Hidden Gems</h1>
+              <p className="about--text"> Welcome to Hidden Gems! </p>
+              <p className="about--text">
                 Prepare to embark on a journey through Sweden like never before.
               </p>
-              <p className="about_text">
+              <p className="about--text">
                 <b>Our mission is simple:</b> to inspire you to explore Sweden
                 from a fresh perspective. <br />
                 Hidden Gems uncovers the treasures often overlooked by
@@ -35,11 +35,11 @@ export default function ContentSection({ showButton }) {
               )}
             </div>
           </div>
-          <div className="col-md-6 padding_right_0">
+          <div className="col-md-6">
             <div>
               <img
                 src="./images/About-img.webp"
-                className="about_img"
+                className="about--img"
                 alt="Bridge over a small river leading to three small red houses in a forest."
               />
             </div>

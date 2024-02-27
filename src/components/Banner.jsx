@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Carousel({ city, bannerText, link }) {
   return (
     <div className="container">
-      <h1 className="banner_taital">{city}</h1>
-      <p className="banner_text">{bannerText}</p>
-      <div className="read_bt">
+      <h1 className="banner--title">{city}</h1>
+      <p className="banner--text">{bannerText}</p>
+      <div className="read--button">
         <Link to={link}>
           <span className="visually-hidden">Read more about {city}</span>
           {city}
@@ -50,7 +50,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="banner_section layout_padding">
+    <section className="banner--section">
       <div
         id="carouselExampleSlidesOnly"
         className="carousel slide"
@@ -69,6 +69,6 @@ export default function Banner() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

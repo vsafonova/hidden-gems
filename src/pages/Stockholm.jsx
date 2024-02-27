@@ -7,19 +7,19 @@ export default function Stockholm() {
       <header className="header">
         <Navbar />
       </header>
-      <section className="about_section layout_padding">
+      <section className="about--section">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <div className="about_taital_main">
-                <h1 className="about_taital">Stockholm</h1>
-                <p className="about_text">
+              <div className="about--title-main">
+                <h1 className="about--title">Stockholm</h1>
+                <p className="about--text">
                   Welcome to Stockholm, a city brimming with hidden gems waiting
                   to be discovered! While it may not be a hidden gem itself,
                   Stockholm is home to countless treasures just waiting to be
                   explored.
                 </p> 
-                <p className="about_text">
+                <p className="about--text">
                   For those
                   <b> seeking refuge from the hustle and bustle of city life</b>
                   , we recommend exploring
@@ -30,7 +30,7 @@ export default function Stockholm() {
                   tranquil ambiance of their garden as you enjoy a traditional
                   Swedish fika.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   Nature enthusiasts will find solace in
                   <a href="https://maps.app.goo.gl/pT3dn3gYTYd7X7yEA" target="_blank"> Botaniska Trädgården </a>
                   in Danderyd, a botanical garden that transcends the ordinary.
@@ -39,7 +39,7 @@ export default function Stockholm() {
                   their water-focused area adorned with stunning lotus flowers
                   and aquatic plants.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   <b>For art aficionados</b>, Stockholm boasts an array of
                   spectacular museums, with
                   <a href="https://maps.app.goo.gl/CvF5fqHV9YVA2Pnk8" target="_blank"> Fotografiska </a>
@@ -50,14 +50,14 @@ export default function Stockholm() {
                   dine at their lovely vegetarian restaurant perched atop the
                   building.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   And for <b>the best views of Stockholm</b>, venture to
                   <a href="https://maps.app.goo.gl/oCx6hdnCKstgJDWAA" target="_blank"> Skinnarviksberget </a>
                   in Södermalm. As the sun sets, indulge in a takeaway pizza
                   while overlooking the city skyline, serenaded by the gentle
                   hum of fellow admirers.
                 </p>
-                <p className="about_text">
+                <p className="about--text">
                   In Stockholm, hidden gems abound at every turn, inviting you
                   to uncover the city's secrets and create unforgettable
                   memories. Come, embark on a journey of exploration and
@@ -70,7 +70,7 @@ export default function Stockholm() {
               <div>
                 <img
                   src="./images/stockholm-city.webp"
-                  className="about_img"
+                  className="about--img"
                   alt="Mariaberget in södermalm. Buildings overlooking the bay and ocean."
                 />
               </div>

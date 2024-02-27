@@ -128,13 +128,13 @@
     padding: 0px;
     background-size: cover;
   }
-  .banner_text {
+  .banner--text {
     width: 100%;
   }
-  .about_taital_main {
+  .about--title-main {
     padding-left: 25px;
   }
-  .about_text {
+  .about--text {
     font-size: 14px;
   }
   .readmore_bt {
@@ -186,13 +186,13 @@
     padding: 0px;
     background-size: cover;
   }
-  .banner_text {
+  .banner--text {
     width: 100%;
   }
-  .about_taital_main {
+  .about--title-main {
     padding-left: 25px;
   }
-  .about_text {
+  .about--text {
     font-size: 14px;
   }
   .readmore_bt {
@@ -270,18 +270,17 @@
   .logo {
     display: none;
   }
-  .menu_main {
+  .menu {
     display: none;
   }
-  .logo_mobile {
+  .logo--mobile {
     width: 40%;
     padding: 0px;
-    text-align: left;
   }
-  .mobile_menu {
+  .mobile--menu {
     display: initial;
   }
-  .banner_taital {
+  .banner--title {
     font-size: 50px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -299,38 +298,35 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: rgb(31, 64, 33, 0.2);
+    background: rgba(150, 205, 154, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: rgb(31, 64, 33, 0.2);
+    background: rgba(150, 205, 154, 0.2);
   }
-  .banner_text {
+  .banner--text {
     width: 100%;
   }
-  .cities_section {
+  .cities--section {
     padding: 50px 0px;
   }
-  .cities_section_2 {
+  .cities--section-2 {
     margin-top: 30px;
   }
   .cities_img {
     margin-top: 40px;
   }
-  .about_section {
+  .about--section {
     padding: 50px 0px;
   }
-  .about_taital_main {
+  .about--title-main {
     padding-left: 0px;
   }
-  .about_text {
+  .about--text {
     font-size: 15px;
-  }
-  .padding_right_0 {
-    padding-right: 15px;
   }
   .blog_text {
     width: 100%;
@@ -409,10 +405,10 @@
   .social_icon {
     display: inline-block;
   }
-  .contact_taital {
+  .contact--title {
     font-size: 30px;
   }
-  .email_text {
+  .email--text {
     width: 100%;
     padding-top: 90px;
   }
@@ -449,17 +445,17 @@
   .logo {
     display: none;
   }
-  .menu_main {
+  .menu {
     display: none;
   }
-  .logo_mobile {
+  .logo--mobile {
     width: 40%;
     padding: 0px;
   }
-  .mobile_menu {
+  .mobile--menu {
     display: initial;
   }
-  .banner_taital {
+  .banner--title {
     font-size: 50px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -477,44 +473,40 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: rgb(31, 64, 33, 0.2);
+    background: rgba(150, 205, 154, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: rgb(31, 64, 33, 0.2);
+    background: rgba(150, 205, 154, 0.2);
   }
-  .banner_text {
+  .banner--text {
     width: 100%;
   }
-  .cities_section {
+  .cities--section {
     padding: 50px 0px;
   }
-  .cities_section_2 {
+  .cities--section-2 {
     margin-top: 30px;
   }
   .cities_img {
     margin-top: 40px;
   }
-  .about_section {
+  .about--section {
     padding: 50px 0px;
   }
-  .about_taital_main {
+  .about--title-main {
     padding-left: 0px;
   }
-  .about_text {
+  .about--text {
     font-size: 15px;
   }
-  .padding_right_0 {
-    padding-right: 15px;
-  }
-
-  .contact_taital {
+  .contact--title {
     font-size: 28px;
   }
-  .email_text {
+  .email--text {
     width: 100%;
     padding-top: 90px;
   }

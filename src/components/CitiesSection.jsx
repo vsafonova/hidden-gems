@@ -6,7 +6,7 @@ function Card({ image, cityName, link, altText, label }) {
       <div>
         <img src={`./images/${image}`} className="cities_img" alt={altText} />
       </div>
-      <div className="btn_main">
+      <div className="city--button">
         <Link to={link} aria-label={label}>
           {cityName}
         </Link>
@@ -45,19 +45,19 @@ export default function CitiesSection() {
   ];
 
   return (
-    <section className="cities_section layout_padding">
+    <section className="cities--section">
       <div className="container">
-        <h2 className="cities_taital">Cities</h2>
-        <p className="cities_text">
+        <h2 className="cities--title">Cities</h2>
+        <p className="cities--text">
           Embark on a journey of discovery as you explore the hidden gems of
           Sweden, where every corner reveals a new adventure waiting to be
           uncovered.
         </p>
-        <p className="cities_text">
+        <p className="cities--text">
           Our curated selection of unique and lesser-known destinations invites
           you to delve deeper into the heart and soul of Sweden.
         </p>
-        <p className="cities_text">
+        <p className="cities--text">
           We believe in open exploration without gatekeeping, ensuring that
           everyone has the opportunity to uncover the extraordinary beauty and
           richness that Sweden has to offer. So, whether you're a seasoned
@@ -65,7 +65,7 @@ export default function CitiesSection() {
           treasures of this remarkable land and create unforgettable memories
           along the way.
         </p>
-        <div className="cities_section_2">
+        <div className="cities--section-2">
           <div className="row">
             {cities.map(({ image, cityName, link, altText }) => (
               <div className="col-md-4" key={cityName}>
