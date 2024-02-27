@@ -163,7 +163,6 @@ button {
 .logo_mobile {
   width: 100%;
   float: left;
-  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -385,7 +384,7 @@ button {
 .about_taital_main {
   width: 100%;
   padding-left: 1em;
-  padding-top:0;
+  padding-top: 0;
 }
 
 .padding_right_0 {
