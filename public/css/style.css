@@ -1,3 +1,5 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
@@ -7,6 +9,25 @@
   src: url("../fonts/BalooChettan-Regular.ttf");
   src: url("../fonts/BalooChettan-Regular.ttf");
 }
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
@@ -39,7 +60,11 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: 0;
   font-weight: normal;
   position: relative;
@@ -58,6 +83,22 @@ h2 {
   font-size: 22px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
 *,
 *::after,
 *::before {
@@ -67,7 +108,11 @@ h2 {
 }
 
 h1 a,
-h2 a {
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: #212121;
   text-decoration: none !important;
   opacity: 1;
@@ -78,7 +123,8 @@ button:focus {
 }
 
 ul,
-li {
+li,
+ol {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -115,6 +161,44 @@ img {
 
 :focus {
   outline: 0;
+}
+
+.paddind_bottom_0 {
+  padding-bottom: 0 !important;
+}
+
+.btn-custom {
+  margin-top: 20px;
+  background-color: transparent !important;
+  border: 2px solid #ddd;
+  padding: 12px 40px;
+  font-size: 16px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 30px;
+  color: #767676;
+  margin: 0;
+  padding: 0;
+}
+
+.form-control:focus {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.navbar-form input {
+  border: none !important;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+blockquote {
+  margin: 20px 0 20px;
+  padding: 30px;
 }
 
 button {
@@ -233,12 +317,18 @@ button {
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: #00000054;
 }
 
 .menu_main li a:hover {
   color: #ffffff;
-  background-color: #1f4021;
+  background-color: #2b2278;
+}
+
+.mb-lg-0,
+.my-lg-0 {
+  margin-bottom: 0 !important;
+  width: 20%;
+  float: left;
 }
 
 .header_main {
@@ -256,7 +346,6 @@ button {
   width: 100%;
   float: left;
   padding-bottom: 305px;
-  padding: 100px 0px;
 }
 
 .banner_taital {
@@ -273,10 +362,9 @@ button {
 .banner_text {
   width: 63%;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 16px;
   color: #ffffff;
   text-align: center;
-  font-weight: 400;
 }
 
 .read_bt {
@@ -299,7 +387,7 @@ button {
 }
 
 .read_bt a:hover {
-  background-color: #1f4021;
+  background-color: #2b2278;
   color: #ffffff;
 }
 
@@ -307,13 +395,13 @@ button {
 
 /* services section start */
 
-.cities_section {
+.services_section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
 
-.cities_taital {
+.services_taital {
   width: 100%;
   float: left;
   font-size: 40px;
@@ -321,22 +409,21 @@ button {
   font-weight: bold;
 }
 
-.cities_text {
+.services_text {
   width: 100%;
   float: left;
-  font-size: 1.2rem;
+  font-size: 16px;
   color: #1f1f1f;
   margin: 0px;
-  padding-bottom: 0.5rem;
 }
 
-.cities_section_2 {
+.services_section_2 {
   width: 100%;
   float: left;
   margin-top: 90px;
 }
 
-.cities_img {
+.services_img {
   width: 100%;
   float: left;
   text-align: center;
@@ -353,7 +440,7 @@ button {
   float: left;
   font-size: 16px;
   color: #ffffff;
-  background-color: #000d10;
+  background-color: #2b2278;
   text-align: center;
   padding: 10px 0px;
   border-radius: 30px;
@@ -364,7 +451,7 @@ button {
 
 .btn_main a:hover {
   color: #ffffff;
-  background-color: #1f4021;
+  background-color: #000d10;
 }
 
 .btn_main.active a {
@@ -384,12 +471,12 @@ button {
 
 .about_taital_main {
   width: 100%;
-  padding-left: 1em;
-  padding-top: 0;
+  padding-left: 100px;
+  padding-top: 70px;
 }
 
 .padding_right_0 {
-  padding-right: 1em;
+  padding-right: 0px;
 }
 
 .about_taital {
@@ -403,10 +490,10 @@ button {
 .about_text {
   width: 100%;
   float: left;
-  font-size: 1.2rem;
+  font-size: 16px;
   color: #1f1f1f;
   margin: 0px;
-  padding-bottom: 0.5em;
+  padding-top: 40px;
 }
 
 .readmore_bt {
@@ -430,7 +517,7 @@ button {
 
 .readmore_bt a:hover {
   color: #ffffff;
-  background-color: #1f4021;
+  background-color: #2b2278;
 }
 
 .about_img {
@@ -439,6 +526,198 @@ button {
 }
 
 /* contact section end */
+
+/* blog section start */
+
+.blog_section {
+  width: 100%;
+  float: left;
+  background-image: url(../images/blog-bg.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 345px;
+  padding-top: 200px;
+}
+
+.blog_taital {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.blog_text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.play_icon_main {
+  width: 100%;
+  margin-top: 150px;
+  float: left;
+}
+
+.play_icon {
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.play_icon::before {
+  content: "";
+  position: absolute;
+  top: 49%;
+  left: 70px;
+  width: 130px;
+  height: 130px;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 100%;
+  z-index: -1;
+  animation: fadeEffect 1.3s infinite ease;
+  box-shadow: 0px 0px 10px 0px;
+  right: inherit;
+}
+
+@keyframes fadeEffect {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.margin_top_90 {
+  margin-top: 90px;
+}
+/* blog section end */
+
+/* client section start */
+
+.client_section {
+  width: 100%;
+  float: left;
+  padding-bottom: 160px;
+}
+
+.client_taital {
+  width: 100%;
+  font-size: 40px;
+  color: #131313;
+  font-weight: bold;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.client_section_2 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 16px -6px;
+  border-radius: 30px;
+  padding: 50px 70px;
+  margin-top: 50px;
+}
+
+.client_main {
+  width: 100%;
+  display: flex;
+}
+
+.box_left {
+  width: 48%;
+}
+
+.box_right {
+  width: 48%;
+  float: right;
+  padding-top: 65px;
+  margin-left: 30px;
+}
+
+.lorem_text {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+  padding: 90px 30px;
+  border-radius: 30px;
+}
+
+.client_taital_left {
+  width: 40%;
+  float: left;
+}
+
+.client_taital_right {
+  width: 60%;
+  float: left;
+}
+
+.client_img {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+
+.quick_icon {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.client_name {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #012628;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 53px;
+  padding-bottom: 0px;
+}
+
+.customer_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #085a57;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0px;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #8781bd;
+  bottom: -130px;
+}
+
+.carousel-indicators .active {
+  background-color: #2b2278;
+}
+
+/* client section end */
 
 /* contact section start */
 
@@ -461,12 +740,12 @@ button {
   text-align: center;
   padding-top: 120px;
 }
-.email-bt {
+.form-field {
   width: 100%;
   float: left;
   font-size: 18px;
   color: #393838;
-  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px 15px;
   border: 0px;
   border: 1px solid #2b2278 !important;
@@ -498,7 +777,7 @@ button {
 }
 .send_btn a:hover {
   color: #ffffff;
-  background-color: #1f4021;
+  background-color: #2b2278;
 }
 /* contact section end */
 
@@ -507,19 +786,39 @@ button {
 .footer_section {
   width: 100%;
   float: left;
-  background-color: #1f4021;
+  background-image: url(../images/footer-bg.png);
   height: auto;
-  padding-top: 20px;
+  padding-top: 250px;
   background-size: 100% 100%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
 }
 
 /* footer section end */
+
+.copyright_section {
+  width: 100%;
+  float: left;
+  background-color: #122c2d;
+  height: auto;
+}
+
+.copyright_text {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+.copyright_text a {
+  color: #ffffff;
+}
+
+.copyright_text a:hover {
+  color: #e27141;
+}
 
 /* Pop-up styles */
 
@@ -578,6 +877,24 @@ button {
   margin-top: 10px;
 }
 
-.popup-button:hover {
-  background-color: #1f4021;
+.popup-button:hover{
+    background-color: #4617d1;
+}
+
+.message {
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+}
+.message.success {
+  background-color: #cdff85;
+}
+.message.warning {
+  background-color: #ffff85;
+}
+
+.field-error {
+  color: #b50000;
+  text-align: right;
+  font-size: 12px;
 }
