@@ -143,7 +143,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/banner-bg.webp);
   height: auto;
   background-size: 100%;
   padding: 0px 0px 20px 0px;
@@ -243,7 +243,7 @@ button {
 
 .header_main {
   width: 100%;
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/header-bg.webp);
   background-size: 100%;
   padding: 10px 0px 0px 0px;
 }
@@ -385,7 +385,7 @@ button {
 .about_taital_main {
   width: 100%;
   padding-left: 1em;
-  padding-top:0;
+  padding-top: 0;
 }
 
 .padding_right_0 {
@@ -526,12 +526,13 @@ button {
 /* Add this to your CSS or styled-components */
 .popup-container {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 75%;
+  right: -10%;
+  max-width: 300px;
   transform: translate(-50%, -50%);
-  background-color: rgb(255, 255, 255);
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #1f4021;
+  border: 1px solid #1f4021;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
   z-index: 1000;
   border-radius: 10px;
@@ -539,12 +540,13 @@ button {
 
 .popup-heading {
   font-size: 1rem;
-  color: black;
+  color: rgb(246, 246, 246);
   margin-top: 50px;
 }
 
 .popup-content {
   text-align: center;
+  color: white;
 }
 
 .popup-form {
@@ -553,7 +555,7 @@ button {
 }
 
 .popup-close {
-  background-color: #c1c1c1;
+  background-color: #c8c8c8eb;
   color: #000000;
   border: none;
   padding: 5px 15px;
@@ -580,4 +582,35 @@ button {
 
 .popup-button:hover {
   background-color: #4617d1;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 250px;
+    transform: translate(-50%, -50%);
+    background-color: #1f4021;
+    border: 1px solid #1f4021;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 999; /* Place the overlay behind the popup */
+  }
+  .popup-heading {
+    font-size: 0.8rem;
+    color: rgb(246, 246, 246);
+    margin-top: 50px;
+  }
 }
