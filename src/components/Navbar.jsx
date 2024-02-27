@@ -51,7 +51,9 @@ export default function Navbar() {
           <div className="logo--mobile">
             <Link to="/">
               <img
-                src="../images/LogoText.png"
+                src="../images/MobileLogo.webp"
+                width={50}
+                height={50}
                 alt="Hidden Gems Logo. Diamond with Horns."
               />
             </Link>
@@ -77,7 +79,7 @@ export default function Navbar() {
           <div className="logo">
             <Link to="/">
               <img
-                src="./images//LogoText.png"
+                src="./images//LogoText.webp"
                 width={400}
                 height={400}
                 alt="Hidden Gems Logo. Diamond with Horns."
