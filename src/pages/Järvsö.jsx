@@ -68,7 +68,7 @@ export default function Järvsö() {
             <div className="col-md-6">
               <div>
                 <img
-                  src=".\images\järvsö-сity.webp"
+                  src="./images/jarvso-city.webp"
                   className="about_img"
                   alt="One person skiing down a sunny slope overlooking a forest and lake."
                 />
