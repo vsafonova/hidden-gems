@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="header_main">
       <div className="mobile_menu">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <div className="logo_mobile">
             <Link to="/">
               <img

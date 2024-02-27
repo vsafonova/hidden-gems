@@ -280,14 +280,8 @@
   .banner_taital {
     font-size: 50px;
   }
-  .bg-light {
-    background-color: transparent !important;
-  }
-  .header_main {
-    padding: 0px;
-  }
   .navbar-expand-lg .navbar-nav .nav-link {
-    color: #ffffff;
+    color: white;
     text-align: center;
     background: transparent;
     width: 100%;
@@ -301,14 +295,14 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: blue;
+    background: rgb(31,64,33, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: red;
+    background: rgb(31,64,33, 0.2);
   }
   .banner_text {
     width: 100%;
@@ -461,11 +455,8 @@
   .banner_taital {
     font-size: 50px;
   }
-  .bg-light {
-    background-color: transparent !important;
-  }
   .navbar-expand-lg .navbar-nav .nav-link {
-    color: black;
+    color: white;
     text-align: center;
     background: transparent;
     width: 100%;
@@ -479,14 +470,18 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgb(31,64,33, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgb(31,64,33, 0.2);
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
   }
   .banner_text {
     width: 100%;

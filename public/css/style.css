@@ -149,10 +149,6 @@ button {
   padding: 0px 0px 20px 0px;
 }
 
-.bg-light {
-  background-color: transparent !important;
-}
-
 .logo {
   width: 100%;
   float: left;
@@ -239,13 +235,6 @@ button {
 .menu_main li a:hover {
   color: #ffffff;
   background-color: #1f4021;
-}
-
-.header_main {
-  width: 100%;
-  background-image: url(../images/header-bg.png);
-  background-size: 100%;
-  padding: 10px 0px 0px 0px;
 }
 
 /* header section end */
@@ -599,3 +588,4 @@ button {
   text-align: right;
   font-size: 12px;
 }
+
