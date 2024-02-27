@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Järvsö() {
   return (
     <>
-      <header id="header-section" className="header_section">
+      <header className="header">
         <Navbar />
       </header>
       <section className="about_section layout_padding">

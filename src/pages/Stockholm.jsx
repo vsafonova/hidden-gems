@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Stockholm() {
   return (
     <>
-      <header id="header-section" className="header_section">
+      <header className="header">
         <Navbar />
       </header>
       <section className="about_section layout_padding">
@@ -18,7 +18,7 @@ export default function Stockholm() {
                   to be discovered! While it may not be a hidden gem itself,
                   Stockholm is home to countless treasures just waiting to be
                   explored.
-                </p> <hr />
+                </p> <hr/>
                 <p className="about_text">
                   For those
                   <b> seeking refuge from the hustle and bustle of city life</b>

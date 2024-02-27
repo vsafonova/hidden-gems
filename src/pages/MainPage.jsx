@@ -8,7 +8,7 @@ import EmailSubscriptionPopup from "../components/Popup";
 export default function MainPage() {
   return (
     <>
-      <header id="header-section" className="header_section">
+      <header className="header">
         <Navbar />
         <Banner />
       </header>

@@ -140,7 +140,7 @@ button {
 
 /* header section start */
 
-.header_section {
+.header {
   width: 100%;
   float: left;
   background-image: url(../images/banner-bg.webp);
@@ -567,7 +567,8 @@ button {
 }
 
 .popup-button:hover {
-  background-color: #4617d1;
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {

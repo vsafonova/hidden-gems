@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 export default function TipsPage() {
   return (
     <>
-      <header id="header-section" className="header_section">
+      <header className="header">
         <Navbar />
       </header>
       <Form />

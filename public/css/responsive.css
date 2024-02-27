@@ -12,7 +12,7 @@
   .logo {
     text-align: center;
   }
-  
+
   .cart-content-right {
     padding-bottom: 5px;
   }
@@ -124,7 +124,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .header_section {
+  .header {
     padding: 0px;
     background-size: cover;
   }
@@ -182,7 +182,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .header_section {
+  .header {
     padding: 0px;
     background-size: cover;
   }
@@ -244,9 +244,9 @@
     color: rgba(0, 0, 0, 0.5);
     border-color: transparent;
   }
-  
-  
-
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
   #main_slider a.carousel-control-prev {
     position: absolute;
     left: 175px;
@@ -259,7 +259,7 @@
     top: 90%;
     display: none;
   }
-  .header_section {
+  .header {
     background-image: url(../images/banner-bg.webp);
     background-size: cover;
     padding: 0px;
@@ -299,14 +299,14 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: rgb(31,64,33, 0.2);
+    background: rgb(31, 64, 33, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: rgb(31,64,33, 0.2);
+    background: rgb(31, 64, 33, 0.2);
   }
   .banner_text {
     width: 100%;
@@ -435,10 +435,13 @@
     top: 90%;
     display: none;
   }
-  .header_section {
+  .header {
     background-image: url(../images/banner-bg.webp);
     background-size: cover;
     padding: 0px;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
   }
   .navbar-toggler {
     background-color: #ffffff;
@@ -474,18 +477,14 @@
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background: rgb(31,64,33, 0.2);
+    background: rgb(31, 64, 33, 0.2);
   }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .show > .nav-link {
     color: #ffffff;
-    background: rgb(31,64,33, 0.2);
-  }
-
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgb(31, 64, 33, 0.2);
   }
   .banner_text {
     width: 100%;
