@@ -23,8 +23,7 @@ export default function Visby() {
                   Fiskargränd, frozen in the charming essence of the 1600s. It's
                   a fairy tale come to life, with climbing roses adorning the
                   facades, beckoning you to explore its enchanting alleys.
-                  <hr />
-                </p>
+                </p> 
                 <p className="about_text">
                   If you have a <b>penchant for nature and flowers, </b>
                   <a href="https://maps.app.goo.gl/VYKdZV9MharKU1Jt6" target="_blank"> Botaniska trädgården </a>
@@ -42,7 +41,7 @@ export default function Visby() {
                   1700s-1800s, once home to the humble folk of Visby. Here, by
                   the verdant greens near the church, discover the most
                   breathtaking lookout spots offering panoramic views of the
-                  cityscape. <hr/>
+                  cityscape.
                 </p>
                 <p className="about_text">
                   In summary, Visby is a haven for those enamoured with rich

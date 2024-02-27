@@ -16,7 +16,7 @@ export default function Järvsö() {
                 <p className="about_text">
                   Explore the charming Järvsö, a quaint city bursting with
                   exciting adventures! Regardless of the season, there's always
-                  something thrilling to experience in this hidden gem. <hr/>
+                  something thrilling to experience in this hidden gem.
                 </p>
                 <p className="about_text">
                   In the <b> winter months </b>, Järvsö transforms into a skier's
@@ -53,7 +53,7 @@ export default function Järvsö() {
                   Järvsö proudly boasts one of the largest and most spectacular
                   churches in the northern region of Sweden built in 1832–1838.
                   The church is nestled on a hill overlooking the water with a
-                  spectacular view. <hr/>
+                  spectacular view.
                 </p>
                 <p className="about_text">
                 

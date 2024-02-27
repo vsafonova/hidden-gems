@@ -18,7 +18,7 @@ export default function Stockholm() {
                   to be discovered! While it may not be a hidden gem itself,
                   Stockholm is home to countless treasures just waiting to be
                   explored.
-                </p> <hr/>
+                </p> 
                 <p className="about_text">
                   For those
                   <b> seeking refuge from the hustle and bustle of city life</b>
@@ -55,7 +55,7 @@ export default function Stockholm() {
                   <a href="https://maps.app.goo.gl/oCx6hdnCKstgJDWAA" target="_blank"> Skinnarviksberget </a>
                   in Södermalm. As the sun sets, indulge in a takeaway pizza
                   while overlooking the city skyline, serenaded by the gentle
-                  hum of fellow admirers. <hr />
+                  hum of fellow admirers.
                 </p>
                 <p className="about_text">
                   In Stockholm, hidden gems abound at every turn, inviting you
