@@ -1,4 +1,19 @@
-import Card from "./Card";
+import { Link } from "react-router-dom";
+
+function Card({ image, cityName, link, altText, label }) {
+  return (
+    <>
+      <div>
+        <img src={`./images/${image}`} className="cities_img" alt={altText} />
+      </div>
+      <div className="btn_main">
+        <Link to={link} aria-label={label}>
+          {cityName}
+        </Link>
+      </div>
+    </>
+  );
+}
 
 export default function CitiesSection() {
   const cities = [

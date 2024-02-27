@@ -1,5 +1,20 @@
 import { useEffect, useState } from "react";
-import Carousel from "./Carousel";
+import { Link } from "react-router-dom";
+
+function Carousel({ city, bannerText, link }) {
+  return (
+    <div className="container">
+      <h1 className="banner_taital">{city}</h1>
+      <p className="banner_text">{bannerText}</p>
+      <div className="read_bt">
+        <Link to={link}>
+          <span className="visually-hidden">Read more about {city}</span>
+          {city}
+        </Link>
+      </div>
+    </div>
+  );
+}
 
 export default function Banner() {
   const citiesBanner = [
@@ -31,7 +46,7 @@ export default function Banner() {
       (city) => city.city === "Stockholm"
     );
 
-    setActiveIndex(startingAnimation );
+    setActiveIndex(startingAnimation);
   }, []);
 
   return (
@@ -42,16 +57,14 @@ export default function Banner() {
         data-ride="carousel"
       >
         <div className="carousel-inner">
-        {citiesBanner.map(({ city, bannerText, link }, index) => (
+          {citiesBanner.map(({ city, bannerText, link }, index) => (
             <div
-              className={`carousel-item ${index === activeIndex ? ' active' : ''}`}
+              className={`carousel-item ${
+                index === activeIndex ? " active" : ""
+              }`}
               key={city}
             >
-              <Carousel
-                city={city}
-                bannerText={bannerText}
-                link={link}
-              />
+              <Carousel city={city} bannerText={bannerText} link={link} />
             </div>
           ))}
         </div>

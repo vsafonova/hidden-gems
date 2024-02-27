@@ -1,12 +1,47 @@
 import { Link } from "react-router-dom";
 
-const NavLink = ({ to, label, ariaLabel }) => (
-  <li className="nav-item">
-    <Link to={to} className="nav-link" aria-label={ariaLabel}>
-      {label}
-    </Link>
-  </li>
-);
+function NavLink({ to, label, ariaLabel }) {
+  return (
+    <li className="nav-item">
+      <Link to={to} className="nav-link" aria-label={ariaLabel}>
+        {label}
+      </Link>
+    </li>
+  );
+}
+
+function Menu({ className }) {
+  const navLinks = [
+    {
+      to: "/",
+      label: "Home",
+      ariaLabel: "Navigate to the Home Page",
+    },
+    {
+      to: "/CityPage",
+      label: "Cities",
+      ariaLabel: "Navigate to the Cities Page",
+    },
+    {
+      to: "/AboutPage",
+      label: "About",
+      ariaLabel: "Navigate to the About Page",
+    },
+    {
+      to: "/TipsPage",
+      label: "Tips",
+      ariaLabel: "Navigate to the Tips Page",
+    },
+  ];
+
+  return (
+    <ul className={className}>
+      {navLinks.map(({ to, ariaLabel, label }) => (
+        <NavLink key={to} to={to} ariaLabel={ariaLabel} label={label} />
+      ))}
+    </ul>
+  );
+}
 
 export default function Navbar() {
   return (
@@ -35,28 +70,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <NavLink
-                to="/"
-                label="Home"
-                ariaLabel="Navigate to the Home Page"
-              />
-              <NavLink
-                to="/CityPage"
-                label="Cities"
-                ariaLabel="Navigate to the Cities Page"
-              />
-              <NavLink
-                to="/AboutPage"
-                label="About"
-                ariaLabel="Navigate to the About Page"
-              />
-              <NavLink
-                to="/TipsPage"
-                label="Tips"
-                ariaLabel="Navigate to the Tips Page"
-              />
-            </ul>
+            <Menu className="navbar-nav" />
           </div>
         </nav>
       </div>
@@ -74,28 +88,7 @@ export default function Navbar() {
           </div>
         </header>
         <nav className="menu_main">
-          <ul>
-            <NavLink
-              to="/"
-              label="Home"
-              ariaLabel="Navigate to the Home Page"
-            />
-            <NavLink
-              to="/CityPage"
-              label="Cities"
-              ariaLabel="Navigate to the Cities Page"
-            />
-            <NavLink
-              to="/AboutPage"
-              label="About"
-              ariaLabel="Navigate to the About Page"
-            />
-            <NavLink
-              to="/TipsPage"
-              label="Tips"
-              ariaLabel="Navigate to the Tips Page"
-            />
-          </ul>
+          <Menu />
         </nav>
       </div>
     </header>
