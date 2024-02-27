@@ -4,7 +4,7 @@ function Card({ image, cityName, link, altText, label }) {
   return (
     <>
       <div>
-        <img src={`./images/${image}`} className="cities_img" alt={altText} />
+        <img src={`./images/${image}`} className="cities--img" alt={altText} />
       </div>
       <div className="city--button">
         <Link to={link} aria-label={label}>
