@@ -12,6 +12,7 @@
   .logo {
     text-align: center;
   }
+  
   .cart-content-right {
     padding-bottom: 5px;
   }
@@ -243,6 +244,9 @@
     color: rgba(0, 0, 0, 0.5);
     border-color: transparent;
   }
+  
+  
+
   #main_slider a.carousel-control-prev {
     position: absolute;
     left: 175px;
@@ -463,9 +467,6 @@
   }
   .bg-light {
     background-color: transparent !important;
-  }
-  .header_main {
-    padding: 0px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     color: black;

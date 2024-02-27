@@ -1,3 +1,4 @@
+
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
@@ -614,3 +615,22 @@ button {
     margin-top: 50px;
   }
 }
+
+.message {
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+}
+.message.success {
+  background-color: #cdff85;
+}
+.message.warning {
+  background-color: #ffff85;
+}
+
+.field-error {
+  color: #b50000;
+  text-align: right;
+  font-size: 12px;
+}
+
