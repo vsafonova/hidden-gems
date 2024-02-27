@@ -17,8 +17,8 @@ export default function Stockholm() {
                   Welcome to Stockholm, a city brimming with hidden gems waiting
                   to be discovered! While it may not be a hidden gem itself,
                   Stockholm is home to countless treasures just waiting to be
-                  explored. <hr />
-                </p>
+                  explored.
+                </p> <hr />
                 <p className="about_text">
                   For those
                   <b> seeking refuge from the hustle and bustle of city life</b>
