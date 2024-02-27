@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
@@ -237,7 +236,6 @@ button {
   background-color: #1f4021;
 }
 
-
 /* header section end */
 
 /* banner section start */
@@ -428,8 +426,6 @@ button {
   float: left;
 }
 
-/* contact section end */
-
 /* contact section start */
 
 .contact_section {
@@ -451,12 +447,12 @@ button {
   text-align: center;
   padding-top: 120px;
 }
-.email-bt {
+.form-field {
   width: 100%;
   float: left;
   font-size: 18px;
   color: #393838;
-  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px 15px;
   border: 0px;
   border: 1px solid #2b2278 !important;
@@ -622,4 +618,3 @@ button {
   text-align: right;
   font-size: 12px;
 }
-
