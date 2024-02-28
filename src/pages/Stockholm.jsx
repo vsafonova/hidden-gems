@@ -66,7 +66,7 @@ export default function Stockholm() {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 pt-2">
               <div>
                 <img
                   src="./images/stockholm-city.webp"

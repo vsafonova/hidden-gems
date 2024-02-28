@@ -65,7 +65,7 @@ export default function Järvsö() {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 pt-1">
               <div>
                 <img
                   src="./images/jarvso-city.webp"
