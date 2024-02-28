@@ -68,7 +68,7 @@ export default function CitiesSection() {
         <div className="cities--section-2">
           <div className="row">
             {cities.map(({ image, cityName, link, altText }) => (
-              <div className="col-md-4" key={cityName}>
+              <div className="col-md-4 pb-4" key={cityName}>
                 <Card
                   image={image}
                   cityName={cityName}
