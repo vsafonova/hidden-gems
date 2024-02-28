@@ -1,20 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
-function Carousel({ city, bannerText, link }) {
-  return (
-    <div className="container">
-      <h1 className="banner--title">{city}</h1>
-      <p className="banner--text">{bannerText}</p>
-      <div className="read--button">
-        <Link to={link}>
-          <span className="visually-hidden">Read more about {city}</span>
-          {city}
-        </Link>
-      </div>
-    </div>
-  );
-}
+import Carousel from "./Carousel";
 
 export default function Banner() {
   const citiesBanner = [
