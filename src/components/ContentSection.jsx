@@ -7,13 +7,13 @@ export default function ContentSection({ showButton }) {
         <div className="row">
           <div className="col-md-6 py-3">
             <div className="about--title-main">
-              <h1 className="about--title">About Hidden Gems</h1>
+              <h2 className="about--title">About Hidden Gems</h2>
               <p className="about--text"> Welcome to Hidden Gems! </p>
               <p className="about--text">
                 Prepare to embark on a journey through Sweden like never before.
               </p>
               <p className="about--text">
-                <b>Our mission is simple:</b> to inspire you to explore Sweden
+                <strong>Our mission is simple:</strong> to inspire you to explore Sweden
                 from a fresh perspective. <br />
                 Hidden Gems uncovers the treasures often overlooked by
                 traditional tourism. We shine a spotlight on lesser-known

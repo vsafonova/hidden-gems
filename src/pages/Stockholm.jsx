@@ -12,7 +12,7 @@ export default function Stockholm() {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="about--title-main">
-                <h1 className="about--title">Stockholm</h1>
+                <h2 className="about--title">Stockholm</h2>
                 <p className="about--text">
                   Welcome to Stockholm, a city brimming with hidden gems waiting
                   to be discovered! While it may not be a hidden gem itself,
@@ -21,7 +21,7 @@ export default function Stockholm() {
                 </p> 
                 <p className="about--text">
                   For those
-                  <b> seeking refuge from the hustle and bustle of city life</b>
+                  <strong> seeking refuge from the hustle and bustle of city life</strong>
                   , we recommend exploring
                   <a href="https://maps.app.goo.gl/Ss7BHkiPVmhrL3NB9" target="_blank"> Rosendals Trädgård </a>
                   , a charming garden cafe in Djurgården nestled amidst lush
@@ -40,7 +40,7 @@ export default function Stockholm() {
                   and aquatic plants.
                 </p>
                 <p className="about--text">
-                  <b>For art aficionados</b>, Stockholm boasts an array of
+                  <strong>For art aficionados</strong>, Stockholm boasts an array of
                   spectacular museums, with
                   <a href="https://maps.app.goo.gl/CvF5fqHV9YVA2Pnk8" target="_blank"> Fotografiska </a>
                   standing out as a personal favourite. Located in Södermalm,
@@ -51,7 +51,7 @@ export default function Stockholm() {
                   building.
                 </p>
                 <p className="about--text">
-                  And for <b>the best views of Stockholm</b>, venture to
+                  And for <strong>the best views of Stockholm</strong>, venture to
                   <a href="https://maps.app.goo.gl/oCx6hdnCKstgJDWAA" target="_blank"> Skinnarviksberget </a>
                   in Södermalm. As the sun sets, indulge in a takeaway pizza
                   while overlooking the city skyline, serenaded by the gentle

@@ -12,14 +12,14 @@ export default function Järvsö() {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="about--title-main">
-                <h1 className="about--title">Järvsö</h1>
+                <h2 className="about--title">Järvsö</h2>
                 <p className="about--text">
                   Explore the charming Järvsö, a quaint city bursting with
                   exciting adventures! Regardless of the season, there's always
                   something thrilling to experience in this hidden gem.
                 </p>
                 <p className="about--text">
-                  In the <b> winter months </b>, Järvsö transforms into a skier's
+                  In the <strong> winter months </strong>, Järvsö transforms into a skier's
                   paradise with its 
                   <a href="https://maps.app.goo.gl/W36B2ZVYavAraVA4A" target="_blank"> Järvsöbacken </a> 
                   boasting 23 diverse hills
@@ -41,7 +41,7 @@ export default function Järvsö() {
                   foxes
                 </p>
                 <p className="about--text">
-                  When it's <b>time to eat</b>, we recommend 
+                  When it's <strong>time to eat</strong>, we recommend 
                   <a href="https://maps.app.goo.gl/qahi6aDjPx2GSmVJ7" target="_blank"> Järvsö Creperie </a>
                   , a small and charming spot that offers both savoury and sweet crepes.
                   How about a crêpe with local cloudberries and a generous scoop
@@ -49,7 +49,7 @@ export default function Järvsö() {
                 </p>
                 <p className="about--text">
                 
-                  And <b>for connoisseurs of architecture and serene sanctuaries</b>,
+                  And <strong>for connoisseurs of architecture and serene sanctuaries</strong>,
                   Järvsö proudly boasts one of the largest and most spectacular
                   churches in the northern region of Sweden built in 1832–1838.
                   The church is nestled on a hill overlooking the water with a

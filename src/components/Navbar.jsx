@@ -1,4 +1,3 @@
-import Menu from "./Menu";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -28,7 +27,44 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <Menu className="navbar-nav" />
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/"
+                  aria-label="Navigate to the Home Page"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/CityPage"
+                  aria-label="Navigate to the Cities Page"
+                >
+                  Cities
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/AboutPage"
+                  aria-label="Navigate to the About Page"
+                >
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/TipsPage"
+                  aria-label="Navigate to the Tips Page"
+                >
+                  Tips
+                </Link>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -46,7 +82,44 @@ export default function Navbar() {
           </div>
         </header>
         <nav className="menu">
-          <Menu />
+          <ul>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/"
+                aria-label="Navigate to the Home Page"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/CityPage"
+                aria-label="Navigate to the Cities Page"
+              >
+                Cities
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/AboutPage"
+                aria-label="Navigate to the About Page"
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/TipsPage"
+                aria-label="Navigate to the Tips Page"
+              >
+                Tips
+              </Link>
+            </li>
+          </ul>
         </nav>
       </div>
     </>

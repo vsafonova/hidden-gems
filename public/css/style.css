@@ -1,5 +1,3 @@
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
 * {
   box-sizing: border-box !important;
   transition: ease all 0.5s;
@@ -129,8 +127,6 @@ section {
   padding: 0px;
 }
 
-/* header section start */
-
 .header {
   width: 100%;
   float: left;
@@ -221,10 +217,6 @@ section {
   background-color: #1f4021;
 }
 
-/* header section end */
-
-/* banner section start */
-
 .banner--section{
   width: 100%;
   float: left;
@@ -275,10 +267,6 @@ section {
   background-color: #1f4021;
   color: #ffffff;
 }
-
-/* banner section end */
-
-/* services section start */
 
 .cities--section {
   width: 100%;
@@ -345,10 +333,6 @@ section {
   background-color: #000d10;
 }
 
-/* services section end */
-
-/* about section start */
-
 .about--section {
   width: 100%;
   float: left;
@@ -406,8 +390,6 @@ section {
   width: 100%;
   float: left;
 }
-
-/* contact section start */
 
 .tips--section {
   width: 100%;
@@ -467,9 +449,6 @@ section {
   color: #ffffff;
   background-color: #1f4021;
 }
-/* contact section end */
-
-/* footer section start */
 
 .footer {
   width: 100%;
@@ -486,11 +465,6 @@ section {
   color: white;
 }
 
-/* footer section end */
-
-/* Pop-up styles */
-
-/* Add this to your CSS or styled-components */
 .popup-container {
   position: fixed;
   top: 75%;
@@ -535,7 +509,6 @@ section {
   right: 10px;
 }
 
-/* Style the close button */
 .popup-button {
   background-color: #000000;
   color: #ffffff;
@@ -573,8 +546,8 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-    z-index: 999; /* Place the overlay behind the popup */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
   }
   .popup-heading {
     font-size: 0.8rem;
