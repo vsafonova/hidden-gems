@@ -2,7 +2,7 @@
 
 Website aimed at assisting tourists and newcomers in discovering hidden gems across Sweden
 
-***The website needs to change the interface for the mobile version, for example, I would like to add a slider for some components, as well as SSR implementation for some sections.***
+***The website needs to change the interface for the mobile version, for example, I would like to add a slider for some components, as well as SSR implementation for some sections to enhance website performance.***
 
 ## Project results
 <ul>
