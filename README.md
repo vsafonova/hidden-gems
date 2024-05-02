@@ -1,11 +1,11 @@
 # Hidden Gems website
 
-Website aimed at assisting tourists and newcomers in discovering hidden gems across Sweden
+Website aimed at assisting tourists and newcomers in discovering hidden gems across Sweden.
 
 ***The website needs to change the interface for the mobile version, for example, I would like to add a slider for some components, as well as SSR implementation for some sections to enhance website performance.***
 
 ## Project brief dedicated to SEO, accessibility, and performance module
-Apply best practices to write accessible and SEO-friendly websites and optimize website performance metrics using tools such as Lighthouse
+Apply best practices to write accessible and SEO-friendly websites and optimize website performance metrics using tools such as Lighthouse.
 
 ## Criteria
 <ul>
