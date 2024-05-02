@@ -4,6 +4,19 @@ Website aimed at assisting tourists and newcomers in discovering hidden gems acr
 
 ***The website needs to change the interface for the mobile version, for example, I would like to add a slider for some components, as well as SSR implementation for some sections to enhance website performance.***
 
+## Project brief dedicated to SEO, accessibility, and performance module
+Apply best practices to write accessible and SEO-friendly websites and optimize website performance metrics using tools such as Lighthouse
+
+## Criteria
+<ul>
+  <li>Use appropriate tags and attributes to make sure the code is accessible.</li>
+  <li>Make sure the code is SEO friendly.</li>
+  <li>Analyze Lighthouse metrics and make sure the score is good.</li>
+  <li>Include an SEO-friendly banner, pop-up, or announcement bar.</li>
+  <li>Prioritize speed through coding best practices.</li>
+  <li>Ensure mobile friendliness.</li>
+</ul>
+
 ## Project results
 <ul>
   <li>Utilized React to create reusable and dynamic components, enhancing user experience and interaction.</li>
